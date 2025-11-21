@@ -6,9 +6,6 @@
         "RSS"
     ],
     "homepage": "https://github.com/DIYgod/RSSHub#readme",
-    "bugs": {
-        "url": "https://github.com/DIYgod/RSSHub/issues"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DIYgod/RSSHub.git"
@@ -198,38 +195,7 @@
         "vitest": "4.0.9",
         "yaml-eslint-parser": "1.3.0"
     },
-    "packageManager": "pnpm@10.22.0+sha512.bf049efe995b28f527fd2b41ae0474ce29186f7edcb3bf545087bd61fbbebb2bf75362d1307fda09c2d288e1e499787ac12d4fcb617a974718a6051f2eee741c",
     "engines": {
         "node": "^22.20.0 || ^24"
-    },
-    "pnpm": {
-        "onlyBuiltDependencies": [
-            "bufferutil",
-            "core-js",
-            "es5-ext",
-            "esbuild",
-            "eslint-nibble",
-            "msw",
-            "protobufjs",
-            "puppeteer",
-            "rebrowser-puppeteer",
-            "rolldown",
-            "sleep",
-            "utf-8-validate",
-            "vue-demi"
-        ],
-        "overrides": {
-            "art-template@4.13.2>html-minifier": "~4.0.0",
-            "difflib": "https://codeload.github.com/postlight/difflib.js/tar.gz/32e8e38c7fcd935241b9baab71bb432fd9b166ed",
-            "es-set-tostringtag": "npm:@nolyfill/es-set-tostringtag@^1",
-            "google-play-scraper>got": "^14.6.4",
-            "google-play-scraper>ramda": "^0.32.0",
-            "google-play-scraper>tough-cookie": "^6.0.0",
-            "hasown": "npm:@nolyfill/hasown@^1",
-            "is-core-module": "npm:@nolyfill/is-core-module@^1",
-            "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
-            "safer-buffer": "npm:@nolyfill/safer-buffer@^1",
-            "side-channel": "npm:@nolyfill/side-channel@^1"
-        }
     }
 }
